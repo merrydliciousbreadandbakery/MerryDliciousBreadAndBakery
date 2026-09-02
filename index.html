@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merry D'licious Bread & Bakery</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Great Vibes (Huruf Sambung) & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#fcf8f2] text-[#5c4033] min-h-screen flex flex-col font-sans">
+
+  <!-- Top Bar Kontak & Sosial Media -->
+  <div class="bg-[#4a3228] text-amber-100 text-xs py-2 px-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="https://wa.me/6281280713393" target="_blank" class="flex items-center gap-1.5 hover:text-white transition-colors">
+        <i data-lucide="phone" class="w-3.5 h-3.5 text-amber-400"></i>
+        <span>+62 812-8071-3393</span>
+      </a>
+
+      <a href="https://www.instagram.com/merry_dlicious?igsh=MWJmbHY2dWRubTI5Ng==" target="_blank" class="flex items-center gap-1.5 hover:text-white transition-colors">
+        <i data-lucide="instagram" class="w-3.5 h-3.5 text-amber-400"></i>
+        <span>@merry_dlicious</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="bg-[#fdfbf7] shadow-sm sticky top-0 z-40 border-b border-amber-100/60">
+    <div class="max-w-6xl mx-auto px-6 py-3.5 flex justify-between items-center">
+      <!-- Logo & Nama Toko -->
+      <a href="#" class="flex items-center gap-3">
+        <img src="assets/logo.jpg" onerror="this.onerror=null; this.src='assets/logo.png';" alt="Logo Merry D'licious" class="w-12 h-12 rounded-full border border-amber-200 object-cover bg-white shadow-sm">
+        <div class="flex flex-col">
+          <span class="font-cursive text-2xl md:text-3xl font-normal text-[#4a3228] leading-none tracking-wide">Merry D'licious</span>
+          <span class="text-[10px] md:text-[11px] text-amber-800 tracking-[0.2em] uppercase font-semibold mt-1">Bread & Bakery</span>
+        </div>
+      </a>
+
+      <!-- Menu Navigasi -->
+      <nav class="flex items-center gap-6 md:gap-8 text-xs font-bold tracking-widest text-[#7a5c4d] uppercase">
+        <a href="#home" class="hover:text-amber-800 transition-colors">HOME</a>
+        <a href="#tentang-kami" class="hover:text-amber-800 transition-colors">TENTANG KAMI</a>
+        <a href="#produk-kami" class="hover:text-amber-800 transition-colors">PRODUK KAMI</a>
+        <a href="#sertifikat" class="hover:text-amber-800 transition-colors">SERTIFIKAT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 w-full">
+    
+    <!-- Section 1: Tentang Kami -->
+    <section id="tentang-kami" class="max-w-6xl mx-auto px-6 py-12 md:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Teks Penjelasan Alami -->
+        <div class="lg:col-span-5 space-y-4 fade-up">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#4a3228]">Tentang Kami</h2>
+          
+          <div class="flex gap-1.5 py-1">
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+            <span class="w-2 h-2 rounded-full bg-pink-300"></span>
+          </div>
+
+          <p class="text-gray-600 text-sm md:text-base leading-relaxed pt-1">
+            Berawal dari resep rumahan dan rasa suka bikin cemilan manis, <strong class="text-[#4a3228]">Merry D'licious Bread & Bakery</strong> hadir buat nemenin hari-hari kamu. Dari roti manis yang empuk tiap pagi, bolu lembut, sampai cake buat acara ultah dan hampers.
+          </p>
+          <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+            Semua dipanggang fresh tiap hari pakai bahan pilihan tanpa pengawet. Karena menurut kita, nikmatin sajian bakery enak itu gak harus nunggu momen tertentu!
+          </p>
+        </div>
+
+        <!-- 2 Foto Showcase Samping Kanan -->
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-5 items-center">
+          <div class="bg-white p-2.5 rounded-[2.5rem] card-roti fade-up">
+            <img src="assets/Showcase 1.1.jpg" onerror="this.onerror=null; this.src='assets/Showcase 1.1.png';" alt="Showcase Merry D'licious 1" class="w-full h-64 object-cover rounded-[2rem] foto-zoom">
+          </div>
+          <div class="bg-white p-2.5 rounded-[2.5rem] card-roti fade-up" style="transition-delay: 100ms;">
+            <img src="assets/showcase 1.2.jpg" onerror="this.onerror=null; this.src='assets/showcase 1.2.png';" alt="Showcase Merry D'licious 2" class="w-full h-64 object-cover rounded-[2rem] foto-zoom">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 2: Produk Kami -->
+    <section id="produk-kami" class="bg-white py-16 border-t border-b border-amber-100/60">
+      <div class="max-w-6xl mx-auto px-6">
+        
+        <div class="text-center mb-12 fade-up">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#4a3228]">Pilihan Produk Kami</h2>
+          <p class="text-amber-800 font-semibold text-xs md:text-sm mt-2 tracking-wide uppercase">Dibuat Fresh Setiap Hari</p>
+        </div>
+
+        <!-- Dynamic Catalog dari app.js -->
+        <div class="space-y-12" id="katalog-roti">
+          <!-- Rendered via JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: Sertifikat -->
+    <section id="sertifikat" class="max-w-6xl mx-auto px-6 py-16 fade-up">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl md:text-3xl font-extrabold text-[#4a3228]">Sertifikasi & Legalitas Mutu</h2>
+      </div>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+        <div class="bg-white p-3 rounded-[2.5rem] card-roti">
+          <img src="assets/Sertifikat indonesia.jpg" onerror="this.onerror=null; this.src='assets/Sertifikat indonesia.png';" alt="Sertifikat Indonesia" class="w-full h-auto max-h-72 object-contain rounded-2xl foto-zoom">
+        </div>
+        <div class="bg-white p-3 rounded-[2.5rem] card-roti">
+          <img src="assets/Sertifikat singapore.jpg" onerror="this.onerror=null; this.src='assets/Sertifikat singapore.png';" alt="Sertifikat Singapore" class="w-full h-auto max-h-72 object-contain rounded-2xl foto-zoom">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLOATING BUTTONS (WhatsApp + Instagram) -->
+  <div class="fixed bottom-6 right-6 flex flex-col gap-3 z-50 items-end">
+    <a href="https://wa.me/6281280713393?text=Halo%20Admin%20Merry%20D'licious" target="_blank" 
+       class="bg-[#25D366] hover:bg-[#20ba5a] text-white px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-2.5 font-bold text-xs md:text-sm transition-all hover:scale-105 border border-white/20">
+      <i data-lucide="message-circle" class="w-5 h-5 fill-white"></i>
+      <div class="flex flex-col text-left leading-tight">
+        <span class="text-[10px] opacity-90 uppercase font-medium">Chat Admin WA</span>
+        <span class="text-xs md:text-sm tracking-wide">+62 812-8071-3393</span>
+      </div>
+    </a>
+
+    <a href="https://www.instagram.com/merry_dlicious?igsh=MWJmbHY2dWRubTI5Ng==" target="_blank" 
+       class="bg-gradient-to-r from-purple-600 via-pink-500 to-amber-500 hover:opacity-90 text-white px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-2.5 font-bold text-xs md:text-sm transition-all hover:scale-105 border border-white/20 w-full justify-start">
+      <i data-lucide="instagram" class="w-5 h-5"></i>
+      <span class="tracking-wide">Instagram Kami</span>
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-[#3d271d] text-amber-100/70 text-xs py-8 border-t border-amber-900">
+    <div class="max-w-6xl mx-auto px-6 text-center space-y-2">
+      <p class="font-bold text-white tracking-wide text-sm">Merry D'licious Bread & Bakery © 2026</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
