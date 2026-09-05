@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
- <meta name="google-site-verification" content="WPRT2K5EnNGLwn_w4FPSeZ1nnj2Qt6FhVNDR3-MC30s" />
+  <meta name="google-site-verification" content="WPRT2K5EnNGLwn_w4FPSeZ1nnj2Qt6FhVNDR3-MC30s" />
   
   <title>Merry D'licious Bread & Bakery</title>
   
@@ -87,14 +87,37 @@
           </p>
         </div>
 
-        <!-- 2 Foto Showcase Samping Kanan -->
-        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-5 items-center">
-          <div class="bg-white p-2.5 rounded-[2.5rem] card-roti fade-up">
-            <img src="assets/Showcase 1.1.jpg" onerror="this.onerror=null; this.src='assets/Showcase 1.1.png';" alt="Showcase Merry D'licious 1" class="w-full h-64 object-cover rounded-[2rem] foto-zoom">
-          </div>
-          <div class="bg-white p-2.5 rounded-[2.5rem] card-roti fade-up" style="transition-delay: 100ms;">
-            <img src="assets/showcase 1.2.jpg" onerror="this.onerror=null; this.src='assets/showcase 1.2.png';" alt="Showcase Merry D'licious 2" class="w-full h-64 object-cover rounded-[2rem] foto-zoom">
-          </div>
+        <!-- Kolase Foto CSS Samping Kanan (Pakai Aset Produk) -->
+        <div class="lg:col-span-7 relative h-[350px] sm:h-[450px] w-full fade-up flex items-center justify-center mt-8 lg:mt-0">
+          
+          <!-- Background Aksen (Bingkai Kolase) -->
+          <div class="absolute inset-0 bg-[#e8d5b5] rounded-[3rem] shadow-inner transform -rotate-2 opacity-80 border-4 border-[#d4b886]"></div>
+
+          <!-- Foto 1 (Kiri Atas - Lingkaran) -->
+          <img src="assets/Produk 1.png" 
+               class="absolute top-2 left-2 sm:top-6 sm:left-6 w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-full border-[6px] border-white shadow-xl z-10 hover:scale-110 hover:z-50 transition-all duration-300" 
+               alt="Roti Panggang">
+          
+          <!-- Foto 2 (Kanan Atas - Kotak) -->
+          <img src="assets/Produk 2.png" 
+               class="absolute top-8 right-2 sm:top-10 sm:right-6 w-36 h-28 sm:w-52 sm:h-36 object-cover rounded-xl border-[6px] border-white shadow-xl rotate-6 z-20 hover:scale-110 hover:z-50 transition-all duration-300" 
+               alt="Roti Manis">
+               
+          <!-- Foto 3 (Tengah - Highlight Lingkaran Besar) -->
+          <img src="assets/Produk 3.2.png" 
+               class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 sm:w-56 sm:h-56 object-cover rounded-full border-[8px] border-white shadow-2xl z-30 hover:scale-110 hover:z-50 transition-all duration-300" 
+               alt="Kue Spesial">
+          
+          <!-- Foto 4 (Kiri Bawah - Kotak Miring) -->
+          <img src="assets/Produk 4.2.png" 
+               class="absolute bottom-6 left-4 sm:bottom-10 sm:left-10 w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-2xl border-[6px] border-white shadow-xl -rotate-6 z-20 hover:scale-110 hover:z-50 transition-all duration-300" 
+               alt="Bolu Lembut">
+          
+          <!-- Foto 5 (Kanan Bawah - Kotak) -->
+          <img src="assets/Produk 5.2.png" 
+               class="absolute bottom-2 right-4 sm:bottom-6 sm:right-8 w-28 h-28 sm:w-44 sm:h-44 object-cover rounded-xl border-[6px] border-white shadow-lg rotate-3 z-40 hover:scale-110 hover:z-50 transition-all duration-300" 
+               alt="Hampers">
+               
         </div>
 
       </div>
